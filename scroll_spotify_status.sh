@@ -1,4 +1,7 @@
-#!/bin/bash
+#!/usr/bin/env bash
+
+export PARENT_BAR=$1
+export PLAYER=$2
 
 # see man zscroll for documentation of the following parameters
 zscroll -l 30 \
